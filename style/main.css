@@ -1,0 +1,30 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+}
+
+.p5canvas {
+    position: fixed;
+}
+
+#loadingScreen {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16, 16, 16);
+    z-index: 100;
+}
+.loadingContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loadingText {
+    color: #eee;
+    font-size: 8.4vh;
+}
